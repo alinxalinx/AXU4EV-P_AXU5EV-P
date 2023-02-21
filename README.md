@@ -11,8 +11,8 @@ This is vivado factory demo project for ALINX board.
 * For different development board, please open **\<archive extracted location\>/vivado/auto_create_project/project_info.tcl**
 Choose one devicePart and save.
 
-xczu4ev-sfvc784-1-i is for AXU4EV-E  
-xczu5ev-sfvc784-2-i is for AXU5EV-E  
+xczu4ev-sfvc784-1-i is for AXU4EV-P  
+xczu5ev-sfvc784-2-i is for AXU5EV-P  
 ```
 set devicePart "xczu4ev-sfvc784-1-i"
 #set devicePart "xczu5ev-sfvc784-2-i"

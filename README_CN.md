@@ -10,8 +10,8 @@
 * 解压下载的ZIP包到此工程文件夹中。
 * 对于不同的开发板，请打开**\<archive extracted location\>/vivado/auto_create_project/project_info.tcl**文件，选择一个器件并且保存。
 
-xczu4ev-sfvc784-1-i适用于AXU4EV-E  
-xczu5ev-sfvc784-2-i适用于AXU5EV-E  
+xczu4ev-sfvc784-1-i适用于AXU4EV-P  
+xczu5ev-sfvc784-2-i适用于AXU5EV-P  
 ```
 set devicePart "xczu4ev-sfvc784-1-i"
 #set devicePart "xczu5ev-sfvc784-2-i"
