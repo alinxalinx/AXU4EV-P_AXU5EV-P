@@ -2,7 +2,7 @@
 ## Use the interfaces and peripherals on the development board in LINUX
 
 ---
-- These interfaces and peripherals are available on the development board AXU2CG-E, AXU3EG, AXU4EV-E, AXU5EV-E :\
+- These interfaces and peripherals are available on the development board AXU4EV-P, AXU5EV-P:\
 ![](../.images_for_documents/35.png)\
 ①DP\
 ②PS_UART\
