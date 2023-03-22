@@ -101,10 +101,10 @@ generate_target all [get_files  $projpath/$projName.srcs/sources_1/bd/$bdname/$b
 
 set_property is_enabled false [get_files  $projpath/$projName.srcs/sources_1/bd/$bdname/ip/design_1_xdma_0_0/ip_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_gt.xdc]
 
-# launch_runs impl_1 -to_step write_bitstream -jobs $runs_jobs
-# wait_on_run impl_1 
+launch_runs impl_1 -to_step write_bitstream -jobs $runs_jobs
+wait_on_run impl_1 
 
-# write_hw_platform -fixed -force -include_bit -file $projpath/$bdWrapperName.xsa
+write_hw_platform -fixed -force -include_bit -file $projpath/$bdWrapperName.xsa
 
-# close_project
+close_project
 
